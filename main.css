@@ -79,6 +79,7 @@ h1 {
 
 section {
     padding: 20px 40px;
+
 }
 
 h2 {
@@ -181,3 +182,7 @@ footer {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size:2em;
 }
+
+@media screens and (max-width: 760px) {
+    .nav-links {
+        display: none;
